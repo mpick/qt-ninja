@@ -4,6 +4,23 @@
 
 A comprehensive suite of indicators designed to detect Quarterly Theory SSMT divergences across multiple timeframes in the precious metals triad (Gold, Silver, Platinum). ; you can change the defaults to any comparison triads you choose depending on the asset(s) you wish to trade.
 
+## ⚠️ Important Disclaimer
+
+**NOT FINANCIAL ADVICE**: This software is provided for educational and informational purposes only. It does not constitute financial, investment, trading, or any other type of professional advice.
+
+**RISK WARNING**: 
+- Trading futures, options, and derivatives involves substantial risk of loss
+- Automated strategies can execute trades rapidly and may result in significant losses
+- **YOU ARE RESPONSIBLE** for monitoring and managing any automated strategies
+- Past performance is not indicative of future results
+- Only trade with capital you can afford to lose
+
+**USER RESPONSIBILITY**: You assume full responsibility for your trading decisions, including the use of these indicators and strategies. The developers and contributors of this software accept no liability for any losses incurred.
+
+**Always consult with a licensed financial advisor before making trading decisions.**
+
+See [DISCLAIMER.md](DISCLAIMER.md) for complete terms.
+
 ## 📊 Overview
 
 These indicators identify SSMT divergences based on Quarterly Theory Priciples - Quarterly Theory created by Trader Daye - https://x.com/traderdaye
