@@ -8,6 +8,10 @@
 **1rr Cons:** 1  
 **0.5rr Cons:** 3  
 **Entries per trade:** 2
+**Tested Date Ranges:** 2025-09-20 - 2025-10-14
+**Longs Win Rate:** ..
+**Shorts Win Rate:** ..
+**Avg Trades Per Day:** ..
 
 ## ES
 
@@ -17,6 +21,10 @@
 **1rr Cons:** 1  
 **0.5rr Cons:** 3  
 **Entries per trade:** 2
+**Tested Date Ranges:** 2025-09-20 - 2025-10-14
+**Longs Win Rate:** ..
+**Shorts Win Rate:** ..
+**Avg Trades Per Day:** ..
 
 ## YM
 
@@ -30,6 +38,10 @@
 **1rr Cons:** 1  
 **0.5rr Cons:** 3  
 **Entries per trade:** 2
+**Tested Date Ranges:** 2025-09-20 - 2025-10-14
+**Longs Win Rate:** ..
+**Shorts Win Rate:** ..
+**Avg Trades Per Day:** ..
 
 ## SI
 
