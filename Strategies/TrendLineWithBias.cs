@@ -613,6 +613,18 @@ namespace NinjaTrader.NinjaScript.Strategies
                     Print($"{logPrefix}Entry: {entryPrice:F2} | Stop: {stopLossPrice:F2} | Risk: {riskPerContract:F2}");
                     Print($"{logPrefix}Target 0.5:1 = {targetHalfRR:F2} | Target 1:1 = {target1to1:F2}");
                     Print($"{logPrefix}");
+					
+                    // *** NEW: TRADE ENTRY ALERT ***
+                    string direction = currentBias == TradeDirection.Bullish ? "LONG" : "SHORT";
+                    string entryAlertMsg = $"🚨 {direction} ENTRY | {Instrument.FullName}\n" +
+                                          $"Price: {entryPrice:F2} | Stop: {stopLossPrice:F2}\n" +
+                                          $"Risk: {riskPerContract:F2} | Targets: {targetHalfRR:F2} / {target1to1:F2}";
+                    
+                    Alert("TradeEntry_" + CurrentBar, Priority.High, entryAlertMsg, 
+                        NinjaTrader.Core.Globals.InstallDir + @"\sounds\Alert4.wav", 10, 
+                        currentBias == TradeDirection.Bullish ? Brushes.LimeGreen : Brushes.Red, 
+                        Brushes.Black);
+                    // *** END ALERT ***					
                     
                     // Create unique signal names using CurrentBar to avoid OCO ID conflicts
                     string entry1Signal = $"Entry1_{CurrentBar}";
